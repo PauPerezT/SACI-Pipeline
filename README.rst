@@ -2,7 +2,7 @@
 SACI-Pipeline
 ==========
 
-"SACI-Pipeline: Satrisfaction Analysis for Customer Interactions"
+"SACI-Pipeline: Satisfaction Analysis for Customer Interactions"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 WEBERT is a python toolkit designed to help students to compute dynamic and static Bidirectional Encoder Representations from Transformers (BERT) embeddings (https://github.com/huggingface/transformers). WEBERT is available for english and spanish (multilingual) models, as well as for base and large models, and  cased and lower-cased options. BETO and SciBERT are also available here. BETO is a pretrained BERT model from a spanish corpus (https://github.com/dccuchile/beto). SciBERT is a pre-trained model on english scientific text (https://github.com/allenai/scibert). The static features are computed per each neuron based on the mean, standard deviation, kurtosis, skewness, min and max. The project is currently ongoing.
