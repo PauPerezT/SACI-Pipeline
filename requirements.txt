@@ -1,0 +1,11 @@
+nltk==3.6.5
+numpy==1.20.3
+pandas==1.3.4
+parselmouth==1.1.1
+scikit_learn==1.0.2
+scipy==1.7.1
+spacy==3.3.0
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+tqdm==4.62.3
+transformers==4.16.2
