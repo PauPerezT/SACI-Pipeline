@@ -80,6 +80,6 @@ NSC Recall (std)      77.80% (14.28)       59.84% (12.86)          81.59% (16.33
 ====================  ===================  ======================  =======================
 
 SC: Satisfied customer
-NSC: non-satified costumer
+NSC: non-satified custumer
 UA: Unweighted average
 
