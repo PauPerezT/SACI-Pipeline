@@ -92,8 +92,8 @@ Results:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ====================  ===================  ===================  =====================  
-Features              Unweighted Average   Satisfied Customer   No satisfied customer
-                      Recall (mean/std)    Recall (mean/std)    Recall (mean/std) 
+                      Unweighted Average   Satisfied Customer   No satisfied customer
+Features              Recall (mean/std)    Recall (mean/std)    Recall (mean/std) 
 ====================  ===================  ==================   =====================
 NLP                          
 Speech                                   
