@@ -91,11 +91,11 @@ Usage Example::
 Results:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-====================  ===================  ===================  ======================  
-                      Unweighted Average   Satisfied Customer   No satisfied customer
-Features              Recall (mean/std)    Recall (mean/std)    Recall (mean/std) 
-====================  ===================  ==================   ======================
-NLP                   xx                   xx                   xx
+====================  ====================  ====================  =======================  
+                      Unweighted Average    Satisfied Customer    No satisfied customer
+Features              Recall (mean/std)     Recall (mean/std)     Recall (mean/std) 
+====================  ====================  ====================  =======================  
+NLP                   xx                    xx                     xx
 Speech                xx                   
-NLP+Speech            xx                   xx                           
-====================  ===================  ===================  ======================
+NLP+Speech            xx                    xx                           
+====================  ====================  ===================   =======================
