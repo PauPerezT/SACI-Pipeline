@@ -5,8 +5,10 @@ SACI-Pipeline
 "SACI-Pipeline: Satisfaction Analysis for Customer Interactions"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-WEBERT is a python toolkit designed to help students to compute dynamic and static Bidirectional Encoder Representations from Transformers (BERT) embeddings (https://github.com/huggingface/transformers). WEBERT is available for english and spanish (multilingual) models, as well as for base and large models, and  cased and lower-cased options. BETO and SciBERT are also available here. BETO is a pretrained BERT model from a spanish corpus (https://github.com/dccuchile/beto). SciBERT is a pre-trained model on english scientific text (https://github.com/allenai/scibert). The static features are computed per each neuron based on the mean, standard deviation, kurtosis, skewness, min and max. The project is currently ongoing.
-It was test on linux.
+This repository conatins the proposed pipeline for satisfaction anlysis for customer interactions developed for Pratech group.
+It uses some pre-trained embedding for NLP and a combination of pre-trained embeddings and basic acoustic features for the speech analysis.
+The recording used for training were divided in to segments using a voiced activity detection algorithm and then weighted using some statistics.
+
 
 The code for this project is available at https://github.com/PauPerezT/SACI-Pipeline
 
@@ -91,13 +93,14 @@ Usage Example::
 Results:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-====================  ====================  ====================  =======================  
-                      Unweighted Average    Satisfied Customer    No satisfied customer
-Features              Recall (mean/std)     Recall (mean/std)     Recall (mean/std) 
-====================  ====================  ====================  =======================  
-NLP                   xx                    xx                     xx
-Speech                xx                   
-NLP+Speech            xx                    xx                           
-====================  ====================  ===================   =======================
+====================  ===================  ======================  =======================
+Features              NLP                  Speech                  NLP+Speech
+====================  ===================  ======================  =======================
+UAR(std)              74,42%               62.00%                  76.29%
+SC Recall(std)        71.05%               64.16%                  70.99%
+NSC Recall(std)       77.80%               59.84%                  81.59%
+====================  ===================  ======================  =======================
 
-Next
+
+
+
