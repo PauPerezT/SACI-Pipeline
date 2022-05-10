@@ -50,10 +50,10 @@ Optional arguments    Optional Values      Description
                                             By default './audios'
 -cu                    True, False          Boolean value for using cuda to compute the 
                                             
-                                           embeddings (True). By default False.        
--mdl                  nlp, speech          Choose between three different classification models.
+                                            embeddings (True). By default False.        
+-mdl                  nlp, speech           Choose between three different classification models.
 
-                      nlp_speech           By default nlp				                                                   
+                      nlp_speech            By default nlp				                                                   
 ====================  ===================  =====================================================================================
 
 
