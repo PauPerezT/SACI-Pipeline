@@ -86,7 +86,10 @@ Usage Example::
 
     python run_pipeline.py -f ./texts/ -sv ./bert_embs -bm Bert -d True -st True -l english -sw True -m base -ca True -cu True
     
-Results for NLP model::
+
+    
+Results:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ====================  ===================  =====================================================================================
 Optional arguments    Optional Values      Description
