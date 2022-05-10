@@ -5,7 +5,7 @@ SACI-Pipeline
 "SACI-Pipeline: Satisfaction Analysis for Customer Interactions"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This repository conatins the proposed pipeline for satisfaction anlysis for customer interactions developed for Pratech group.
+This repository conatins the proposed pipeline for satisfaction analysis for customer interactions developed for Pratech group.
 It uses some pre-trained embedding for NLP and a combination of pre-trained embeddings and basic acoustic features for the speech analysis.
 The recording used for training were divided in to segments using a voiced activity detection algorithm and then weighted using some statistics.
 
