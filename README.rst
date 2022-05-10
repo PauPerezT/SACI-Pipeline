@@ -44,39 +44,16 @@ To compute the predictions automatically
 ====================  ===================  =====================================================================================
 Optional arguments    Optional Values      Description
 ====================  ===================  =====================================================================================
--h                                         Show this help message and exit
--f                                         Path folder of the txt documents (Only txt format). 
+-fa                                         Path folder of the audio file (Only wav format, 1 channel, sampling rate=16000Hz).
+-ft                                         Path folder of the txt file (Only txt format).
                                            
-                                           By default './texts'
--sv                                        Path to save the embeddings. 
-
-                                           By default './bert_embeddings'
--bm                   Bert, Beto, SciBert  Choose between three different BERT models.
-
-                                           By default BERT				             
--d                    True, False          Boolean value to get dynamic features= True.
-
-                                           By default True.                                         
--st                   True, False          Boolean value to get static features= True from the
-
-                                           embeddings such as mean, standard deviation, kurtosis,
-                                           
-                                           skeweness, min and max. By default False.                       
--l                    english, spanish     Chosen language (only available for BERT model).
-
-                                           By default english.                               
--sw                   True, False          Boolean value, set True if you want to remove
-
-                                           stopwords. By default False.                                         
--m                    base, large          Bert models, two options base and large.
- 
-                                           By default base.                                   
--ca                    True, False         Boolean value for cased= True o lower-cased= False
-
-                                           models. No avalaible for SciBert. By default False.
--cu                    True, False         Boolean value for using cuda to compute the 
+                                            By default './audios'
+-cu                    True, False          Boolean value for using cuda to compute the 
                                             
-                                           embeddings (True). By default False.                                                   
+                                           embeddings (True). By default False.        
+-mdl                  nlp, speech          Choose between three different classification models.
+
+                      nlp_speech           By default nlp				                                                   
 ====================  ===================  =====================================================================================
 
 
@@ -86,7 +63,7 @@ Optional arguments    Optional Values      Description
     
 Usage Example::
 
-    python run_pipeline.py -f ./texts/ -sv ./bert_embs -bm Bert -d True -st True -l english -sw True -m base -ca True -cu True
+    python run_pipeline.py -fa ./audios/ -ft ./txts/ -cu True -mdl nlp
     
 
     
