@@ -38,7 +38,7 @@ Run it automatically from linux terminal
 -----------------------------------------
 
 To compute the predictions automatically
-
+The wav files and the txt files must share file names. e.g., test3.wav, test3.txt
 
 
 ====================  ===================  =====================================================================================
